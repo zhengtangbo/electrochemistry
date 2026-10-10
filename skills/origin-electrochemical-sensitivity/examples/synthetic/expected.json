@@ -1,0 +1,32 @@
+{
+  "data_kind": "synthetic_software_fixture_not_experimental",
+  "prepare_status": "prepared",
+  "peak_quality_status": "pass",
+  "expected_slope": 2.0,
+  "expected_intercept": 0.4,
+  "expected_r_squared": 1.0,
+  "relative_tolerance": 1e-08,
+  "absolute_tolerance": 1e-10,
+  "measurements": [
+    {
+      "concentration": 0.5,
+      "peak_potential": 0.3,
+      "delta_current": 1.4
+    },
+    {
+      "concentration": 1.0,
+      "peak_potential": 0.3,
+      "delta_current": 2.4
+    },
+    {
+      "concentration": 2.0,
+      "peak_potential": 0.3,
+      "delta_current": 4.4
+    },
+    {
+      "concentration": 3.0,
+      "peak_potential": 0.3,
+      "delta_current": 6.4
+    }
+  ]
+}

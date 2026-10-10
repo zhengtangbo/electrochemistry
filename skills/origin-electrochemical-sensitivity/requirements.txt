@@ -1,0 +1,11 @@
+# Observed working environment: Windows x64, Python 3.11.9, OriginPro 2021 x64.
+# OriginPro and Chrome/Edge must be installed separately.
+numpy==2.4.6
+pandas==3.0.6
+openpyxl==3.1.5
+originpro==1.1.15
+OriginExt==1.2.5
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.4
+et-xmlfile==2.0.0

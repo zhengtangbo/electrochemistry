@@ -1,0 +1,48 @@
+{
+  "analyte": "SYNTHETIC_SOFTWARE_TEST_NOT_EXPERIMENTAL",
+  "concentration_unit": "mM",
+  "current_unit": "uA",
+  "potential_unit": "V",
+  "columns": {
+    "x": "Potential",
+    "y": "Current"
+  },
+  "peak": {
+    "direction": "up",
+    "window": [
+      0.2,
+      0.4
+    ]
+  },
+  "baseline": {
+    "mode": "linear",
+    "windows": [
+      [
+        0.1,
+        0.16
+      ],
+      [
+        0.44,
+        0.5
+      ]
+    ]
+  },
+  "samples": [
+    {
+      "path": "synthetic_0p5mM.csv",
+      "concentration": 0.5
+    },
+    {
+      "path": "synthetic_1mM.csv",
+      "concentration": 1.0
+    },
+    {
+      "path": "synthetic_2mM.csv",
+      "concentration": 2.0
+    },
+    {
+      "path": "synthetic_3mM.csv",
+      "concentration": 3.0
+    }
+  ]
+}
